@@ -1,0 +1,60 @@
+getwd()
+setwd("/Users/satourintarou/Documents/AIST/Course/StatiscalAnalysis/Rsrc")
+getwd()
+2+4
+a<-3
+a
+a<=8
+a<-8
+a
+data_1 <- read.csv("../week2/data/csv/5_1_income.csv", header = TRUE, sep = ",")
+data_1
+reg1 <- lm(income ~ yeduc, data = data_1)
+summary(reg1)
+plot(yeduc, income, xlab = "yeduc", ylab = "income")
+abline(reg1)
+data_1[,1]
+yeduc<-data_1[,1]
+income<-data_1[,2]
+plot(yeduc, income, xlab = "yeduc", ylab = "income")
+abline(reg1)
+ls()
+getwd()
+source("/Users/satourintarou/Documents/AIST/Course/StatiscalAnalysis/week2/a.R")
+data_1 <- read.csv("../week2/data/csv/5_1_income.csv", header = TRUE, sep = ",")
+data_1 <- read.csv("../week2/data/csv/5_1_income.csv", header = TRUE, sep = ",")#
+data_1#
+reg1 <- lm(income ~ yeduc, data = data_1)#
+summary(reg1)#
+yeduc<-data_1[,1]#
+income<-data_1[,2]#
+ls()#
+plot(yeduc, income, xlab = "yeduc", ylab = "income")#
+abline(reg1)
+getwd()#
+data_1 <- read.csv("../week2/data/csv/5_1_income.csv", header = TRUE, sep = ",")#
+data_1#
+reg1 <- lm(income ~ yeduc, data = data_1)#
+summary(reg1)#
+yeduc<-data_1[,1]#
+income<-data_1[,2]#
+ls()#
+plot(yeduc, income, xlab = "yeduc", ylab = "income")#
+abline(reg1)
+setwd("/Users/satourintarou/Coding/R")
+getwd()
+getwd()
+data_1 <- read.csv("./5_1_income.csv", header = TRUE, sep = ",")
+% print working dir
+getwd()#
+% print working dir#
+#
+data_1 <- read.csv("./5_1_income.csv", header = TRUE, sep = ",")#
+data_1#
+reg1 <- lm(income ~ yeduc, data = data_1)#
+summary(reg1)#
+yeduc<-data_1[,1]#
+income<-data_1[,2]#
+ls()#
+plot(yeduc, income, xlab = "yeduc", ylab = "income")#
+abline(reg1)
